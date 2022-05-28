@@ -56,7 +56,7 @@ while choice!="A" or choice!="a" or choice!="B" or choice!="b":
          filename = input('Please enter filename (containing PLAIN TEXT):')
          if not filename.endswith('.txt'):
              filename=filename+'.txt'
-         if os.path.exists(filename) or os.path.exists(filename+'.txt'):
+         if os.path.exists(filename):
              f=open(filename,"r")
              x=f.read()
              break
