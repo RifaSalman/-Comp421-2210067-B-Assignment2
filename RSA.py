@@ -1,7 +1,7 @@
 print("    Name: Rifa Salman----------Roll No.: 22-10067------------Assignment:2")                          
 import rsa
 
-#generating public and private keys and righting them to files
+#generating public and private keys and writing them to files
 def ppKeys():
     (keyPublic, keyPrivate) = rsa.newkeys(1024)
     try:
